@@ -16,7 +16,7 @@ Stores worldwide upload inventory files to Amazon S3, triggering a serverless wo
 
 **Your architecture will look like the following example:**
 <br/>
-<img src="SERVER 1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="SERVER 1A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h2>🛠️ Services Used</h2>
