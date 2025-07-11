@@ -7,6 +7,7 @@ This project demonstrates how to **implement a fully serverless architecture on 
 <h1>🚀 Project Overview</h2>
 
 Stores worldwide upload inventory files to Amazon S3, triggering a serverless workflow:
+
 ✅ **AWS Lambda** processes uploaded files and updates **Amazon DynamoDB** with inventory data.  
 ✅ Another Lambda function monitors DynamoDB updates and triggers **Amazon SNS** notifications when inventory is out of stock.  
 ✅ A **Cognito-authenticated web dashboard** displays current inventory levels by querying DynamoDB directly.
@@ -121,10 +122,10 @@ You could modify the existing Load-Inventory Lambda function to check inventory 
 
 In the Code source editor, copy and paste the following code:
 <br/>
-<img src="server 2.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="server 3.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br/>
-<img src="server 2.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="server 3a.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 - It loops through the incoming records.
 - If the inventory count is zero, it sends a message to the NoStock SNS topic.
